@@ -18,5 +18,27 @@
 }
 table{
     margin-top:20px;
-    
+
+}
+.text1{
+    color: rgb(255, 187, 153);
+    font-family: 'K2D', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.text2{
+    color: #800000;
+    font-family: 'K2D', sans-serif;
+    font-size: 40px;
+    text-align: left;
+}
+.main-c button{
+    width: 120px;
+    height:50px;
+    font-family: 'K2D', sans-serif;
+}
+.form-control{
+        background-color: gray;
+        font-family: 'K2D', sans-serif;
 }

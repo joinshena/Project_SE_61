@@ -4,6 +4,7 @@
 
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
+
 # An example controller showing how to use dependency injection
 GET     /count                      controllers.CountController.count
 # An example controller showing how to write asynchronous code
@@ -15,3 +16,4 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 GET     /create                     controllers.HomeController.create
 GET     /edit                       controllers.HomeController.edit
+GET     /present                    controllers.HomeController.present

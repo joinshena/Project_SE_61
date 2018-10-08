@@ -28,6 +28,7 @@ public class HomeController extends Controller {
     public Result edit(){
         return ok(views.html.Edit.render());
     }
+    public Result present() {return ok(views.html.Present.render());}
 
 
 }
