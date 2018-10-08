@@ -20,4 +20,14 @@ public class HomeController extends Controller {
         return ok(views.html.sreach.render());
     }
 
+
+    public Result create() {
+        return ok(views.html.Create.render());
+    }
+
+    public Result edit(){
+        return ok(views.html.Edit.render());
+    }
+
+
 }
