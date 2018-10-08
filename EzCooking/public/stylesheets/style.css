@@ -1,0 +1,21 @@
+.margin-top{
+    margin: 35px;
+}
+.edit-box{
+    height: 30px;
+}
+
+.material-icons{
+   width: 20px;
+   height: 20px;
+}
+.text{
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    font-family: 'K2D', sans-serif;
+
+}
+table{
+    margin-top:20px;
+}
