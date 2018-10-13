@@ -29,6 +29,6 @@ public class HomeController extends Controller {
         return ok(views.html.Edit.render());
     }
     public Result present() {return ok(views.html.Present.render());}
-
-
+    public Result showmenucos() {return ok(views.html.showmenucos.render());}
+    public Result showmenuadmin() {return ok(views.html.showmenuadmin.render());}
 }
