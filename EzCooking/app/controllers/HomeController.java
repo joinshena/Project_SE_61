@@ -29,6 +29,7 @@ public class HomeController extends Controller {
         return ok(views.html.Edit.render());
     }
     public Result present() {return ok(views.html.Present.render());}
+    public Result gg() {return ok(views.html.gg.render());}
 
 
 }
