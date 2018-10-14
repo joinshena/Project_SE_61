@@ -17,3 +17,8 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 GET     /create                     controllers.HomeController.create
 GET     /edit                       controllers.HomeController.edit
 GET     /present                    controllers.HomeController.present
+<<<<<<< HEAD
+=======
+GET     /A                          controllers.HomeController.showmenucos
+GET     /B                          controllers.HomeController.showmenuadmin
+>>>>>>> 3f31614c8e66fc9ba12c4565786b8c2db69c605a

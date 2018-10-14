@@ -41,6 +41,7 @@ table{
 .form-control{
         background-color: gray;
         font-family: 'K2D', sans-serif;
+<<<<<<< HEAD
 
 }
 .gg{
@@ -49,3 +50,12 @@ table{
         margin-top: 35px;
 }
 
+=======
+}
+.Aom1{
+    color: rgb(51, 153, 255);
+    font-family: 'K2D', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+>>>>>>> 3f31614c8e66fc9ba12c4565786b8c2db69c605a
