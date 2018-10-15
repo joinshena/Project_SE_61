@@ -29,12 +29,8 @@ public class HomeController extends Controller {
         return ok(views.html.Edit.render());
     }
     public Result present() {return ok(views.html.Present.render());}
-<<<<<<< HEAD
     public Result gg() {return ok(views.html.gg.render());}
-
-
-=======
     public Result showmenucos() {return ok(views.html.showmenucos.render());}
     public Result showmenuadmin() {return ok(views.html.showmenuadmin.render());}
->>>>>>> 3f31614c8e66fc9ba12c4565786b8c2db69c605a
+    public Result ditailmenu() {return ok(views.html.ditailmenu.render());}
 }
