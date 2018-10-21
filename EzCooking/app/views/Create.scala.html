@@ -3,56 +3,65 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/assets/stylesheets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Ez Cooking</title>
-    <h2>เพิ่มเมนูอาหาร</h2>
+    <link rel="icon" href="/assets/images/logo1.png">
+
 </head>
 <body>
-<form>
+<table align="center" width="75%" border="0" >
+    <tr class="a" >
+        <td class="main-a" height="150" width="100%" >
+            <h2 class="text1">สร้าง</h2>
+        </td>
+    </tr>
+    <tr>
+        <td class="main-b">
+            <h1 class="text2">ชื่อเมนู</h1>
 
-    <div class="form-group">
-        <label>ชื่อเมนู</label>
-        <input type="name" class="form-control" placeholder="ชื่ออเมนู">
-    </div>
-    <div class="form-group">
-        <label>เลือกประเภท</label>
-        <select class="form-control">
-            <option>ต้ม</option>
-            <option>ผัด</option>
-            <option>แกง</option>
-            <option>ทอด</option>
-            <option>นึ่ง</option>
-            <option>อบ</option>
-            <option>ตุ่น</option>
-        </select>
-    </div>
-    <div class="form-group">
-        <label>ระดับความยากง่าย</label>
-        <select class="form-control">
-            <option>สำหรับผู้เริ่มต้นทำอาหาร </option>
-            <option>ง่าย</option>
-            <option>ปานกลาง</option>
-            <option>ยาก</option>
-            <option>ยากมาก</option>
-        </select>
-    </div>
-    <div class="form-group">
-        <label>คำอธิบายเมนูอาหาร</label>
-        <textarea class="form-control" rows="4"></textarea>
-    </div>
-    <div class="form-group">
-        <label >รูปตัวอย่างเมนูอาหาร</label><p>
-        <input type="file">
-    </div>
-    <div class="form-group">
+            <input type="name" class="form-control" placeholder="ชื่อเมนู">
+            &nbsp;
+            <h1 class="text2">เลือกประเภท</h1>
 
-        <label >วิดีโอการสอน</label><p>
-        <input type="file">
-    </div>
-    <button type="submit" class="btn btn-primary">Create</button>
-    <button type="cancel" class="btn btn secondary ">Cancel</button>
-</form>
+            <select class="form-control">
+                <option>ต้ม</option>
+                <option>ผัด</option>
+                <option>แกง</option>
+                <option>ทอด</option>
+                <option>นึ่ง</option>
+                <option>อบ</option>
+                <option>ตุ่น</option>
+            </select>
+            &nbsp;
+            <h1 class="text2">คำอธิบายเมนูอาหาร</h1>
+
+            <textarea class="form-control" rows="4"></textarea>
+
+            <h1 class="gg">รูปตัวอย่างเมนูอาหาร</h1>
+            <input type="file">
+
+            <h1 class="gg">วิดีโอการสอน</h1>
+            <input type="file">
+
+        </td>
+    </tr>
+
+    <tr>
+
+        <td class="main-c" align="right" height="300" >
+
+
+            <a href="/showad"><button type="submit" class="btn btn-success">สร้าง</button></a>
+            <a href="/showad"><button type="submit" class="btn btn-danger">ยกเลิก</button></a>
+
+        </td>
+    </tr>
+</table>
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
