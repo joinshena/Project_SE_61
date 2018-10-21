@@ -4,6 +4,8 @@ import play.mvc.*;
 
 import views.html.*;
 
+import java.util.List;
+import models.*;
 /**
  * This controller contains an action to handle HTTP requests
  * to the application's home page.
@@ -29,5 +31,37 @@ public class HomeController extends Controller {
         return ok(views.html.Edit.render());
     }
 
+    public String checklogin(String user,String pass) {
+        List<Chef> chefList;
+        chefList = Chef.find.all();
+        String result;
+        for (Chef e : chefList) {
+            if (e.username.equals(user) && e.password.equals(pass)) {
+                result = "Welcome!";
+                break;
+            } else if (e.username.equals(user)) {
+                result = "Invalid Password!";
+                break;
+            } else if (e.password.equals(pass)) {
+                result = "Invalid Username!";
+                break;
+            } else {
+                result = "Invalid Username and Password!");
+            }
+        }
+        return result;
+    }
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
